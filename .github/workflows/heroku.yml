@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@main
       - uses: akhileshns/heroku-deploy@master # This is the action
         with:
-          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "appskce01" #Must be unique in Heroku
-          heroku_email: ${{secrets.HEROKU_EMAIL}}
+          heroku_api_key: "HRKU-6e49f9ed-90ad-437a-90fd-627a2514484a" #${{secrets.HEROKU_API_KEY}}
+          heroku_app_name: "appskcve01" #Must be unique in Heroku
+          heroku_email: "tliro8iju1@mx.lknemail.dns-dynamic.net" #${{secrets.HEROKU_EMAIL}}
           usedocker: true
